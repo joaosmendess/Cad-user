@@ -3,6 +3,7 @@ import {toast, ToastContainer} from 'react-toastify'
 
 import styled from "styled-components";
 import Form from "./components/Form";
+import Grid from "./components/Grid";
 
 const Container = styled.div `
 
@@ -28,6 +29,7 @@ function App() {
 
       <Title>USUÁRIOS</Title>
       <Form/>
+      <Grid/>
     </Container>
     <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
      
