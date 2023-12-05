@@ -2,6 +2,7 @@ import GlobalStyle from "./styles/global";
 import {toast, ToastContainer} from 'react-toastify'
 
 import styled from "styled-components";
+import Form from "./components/Form";
 
 const Container = styled.div `
 
@@ -16,12 +17,17 @@ gap: 10px;
 
 `;
 
+const Title = styled.h2 `
+
+`
+
 function App() {
   return (
     < >
     <Container>
 
-      <h1>olas</h1>
+      <Title>USUÁRIOS</Title>
+      <Form/>
     </Container>
     <ToastContainer autoClose={3000} position={toast.POSITION.BOTTOM_LEFT} />
      
